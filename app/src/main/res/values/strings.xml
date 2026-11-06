@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">1App</string>
+    <string name="pilot_region">LEONBERG · BÖBLINGEN</string>
+    <string name="home_title">Local errands</string>
+    <string name="home_summary">Find the official page and see what you need before you open it.</string>
+    <string name="all_tasks">All tasks</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_favorites">Open a task’s details to add it to your favorites.</string>
+    <string name="details">Details</string>
+    <string name="open_site">Open site</string>
+    <string name="back_to_tasks">Back to tasks</string>
+    <string name="before_you_start">Before you start</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="reference_heading">Your reference</string>
+    <string name="reference_hint">Stored on this device. Clear the field and save to remove it.</string>
+    <string name="save_reference">Save</string>
+    <string name="copy_reference">Copy saved reference</string>
+    <string name="reference_saved">Reference saved.</string>
+    <string name="reference_removed">Reference removed.</string>
+    <string name="reference_copied">Reference copied.</string>
+    <string name="storage_write_error">Couldn’t save your changes. Try again.</string>
+    <string name="storage_read_error">Couldn’t load saved tasks and references.</string>
+    <string name="browser_error">No app is available to open this website.</string>
+    <string name="leonberg" translatable="false">Stadt Leonberg</string>
+    <string name="netze_bw" translatable="false">Netze BW</string>
+    <string name="awb" translatable="false">AWB Böblingen</string>
+    <string name="dlrg" translatable="false">DLRG Leonberg</string>
+    <string name="appointment_title">Book a Bürgeramt appointment</string>
+    <string name="appointment_summary">Find the booking page for the Leonberg citizens’ office.</string>
+    <string name="appointment_checklist">Choose your reason for visiting. Check the city’s guidance for the documents you need and keep your booking confirmation handy.</string>
+    <string name="meter_title">Submit a meter reading</string>
+    <string name="meter_summary">Send a reading requested by Netze BW.</string>
+    <string name="meter_checklist">Have the reading request, meter number, reading date and current meter reading ready.</string>
+    <string name="meter_number">Meter number</string>
+    <string name="waste_title">Find waste collection dates</string>
+    <string name="waste_summary">Look up collection dates for your address.</string>
+    <string name="waste_checklist">Choose your municipality, street and bins. Enable the calendar content if prompted. Look for the calendar download to add dates to your calendar.</string>
+    <string name="swimming_title">Find a swimming course</string>
+    <string name="swimming_summary">See current DLRG course listings and registration status.</string>
+    <string name="swimming_checklist">Open the course listing and check the prerequisites, registration deadline and whether places are available.</string>
+    <string name="utility_title">Open the Netze BW customer portal</string>
+    <string name="utility_summary">Sign in to access your Netze BW services.</string>
+    <string name="utility_checklist">Use your existing Netze BW account. Your browser handles sign-in and any saved credentials.</string>
+</resources>

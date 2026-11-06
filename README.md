@@ -12,7 +12,7 @@
 
 The launcher follows the device language and supports English and German. Open a task's details for preparation guidance and to add it to Favorites. The meter-reading task can also store a meter number for manual copying.
 
-1App launches official HTTPS links with the default browser's Custom Tabs support when available and falls back to Android's web-link handler. The browser owns web sessions and credential handling. Favorites and the meter number are stored locally, with backup disabled. The app requests no Android permissions and has no backend.
+1App launches official HTTPS links with the default browser's Custom Tabs support when available and falls back to Android's web-link handler. The browser owns web sessions and credential handling. Favorites and the meter number are stored locally, with backup disabled. The app requests no runtime permissions and has no backend.
 
 ## Build and run
 
