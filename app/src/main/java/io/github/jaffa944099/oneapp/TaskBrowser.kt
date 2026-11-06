@@ -3,12 +3,12 @@ package io.github.jaffa944099.oneapp
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import androidx.browser.customtabs.CustomTabsClient
 import androidx.browser.customtabs.CustomTabsIntent
+import androidx.core.net.toUri
 
 internal fun Context.openTask(task: PilotTask): Boolean {
-    val url = Uri.parse(task.url)
+    val url = task.url.toUri()
     val browserPackage = CustomTabsClient.getPackageName(this, emptyList())
     if (browserPackage != null) {
         val tab = CustomTabsIntent.Builder()

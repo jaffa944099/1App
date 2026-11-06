@@ -3,7 +3,6 @@ package io.github.jaffa944099.oneapp
 import android.content.ClipData
 import android.content.ClipDescription
 import android.content.ClipboardManager
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -57,6 +56,7 @@ import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.core.net.toUri
 import androidx.datastore.preferences.core.Preferences
 import java.io.IOException
 import kotlinx.coroutines.flow.catch
@@ -319,7 +319,7 @@ private fun TaskDetails(
                     modifier = Modifier.semantics { heading() },
                 )
                 Text(
-                    Uri.parse(task.url).host.orEmpty(),
+                    task.url.toUri().host.orEmpty(),
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
